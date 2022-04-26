@@ -1,7 +1,5 @@
 package br.com.alura.loja.entidades;
 
-import br.com.alura.loja.enums.Categoria;
-
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -18,7 +16,7 @@ public class Produto {
     private BigDecimal preco;
     private LocalDate dataCadastro = LocalDate.now();
 
-    @Enumerated(EnumType.STRING)
+    @ManyToOne
     private Categoria categoria;
 
     public Long getId() {
