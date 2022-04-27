@@ -8,4 +8,5 @@
 ## Realizar consultas via JPQL
 
 
+
 ![hoa](https://user-images.githubusercontent.com/76777760/165530779-49798304-3195-4ecf-9883-effb496c4167.jpeg)
